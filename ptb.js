@@ -5,7 +5,7 @@ var imgBackground = new Image();
 imgBackground.src = "background.jpg";
 
 var tutorial = new Image();
-tutorial.src = "tutorial.jpg";
+tutorial.src = "tutorial.png";
 
 var Game_STATE_READY = 0;
 var Game_STATE_GAME = 1;
