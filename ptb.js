@@ -5,10 +5,10 @@ var imgBackground = new Image();
 imgBackground.src = "background.jpg";
 
 var tutorial = new Image();
-tutorial.src = "tutorial.png";
+tutorial.src = "tutorial.jpg";
 
-var theCanvas = document.getElementById("canvas");
-var Context = theCanvas.getContext("2d");
+theCanvas = document.getElementById("canvas");
+Context = theCanvas.getContext("2d");
 
 var Game_STATE_READY = 0;
 var Game_STATE_GAME = 1;
