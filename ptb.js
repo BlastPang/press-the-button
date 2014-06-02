@@ -7,9 +7,6 @@ imgBackground.src = "background.jpg";
 var tutorial = new Image();
 tutorial.src = "tutorial.jpg";
 
-theCanvas = document.getElementById("canvas");
-Context = theCanvas.getContext("2d");
-
 var Game_STATE_READY = 0;
 var Game_STATE_GAME = 1;
 var Game_STATE_OVER = 2;
@@ -24,7 +21,11 @@ ingame_audio.load();
 
 var presscount = 0;
 
-window.onload = function() {	
+window.onload = function() {
+	theCanvas = document.getElementById("canvas");
+	Context = theCanvas.getContext("2d");
+
+
 	drawScreen();           
 }
             
