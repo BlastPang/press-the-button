@@ -39,6 +39,8 @@ window.onkeydown = function (e) {
     		onGameReady();
     	else if(GameState==Game_STATE_PAUSE)
     		onGameStart();
+    } else if ( e.keyCode == 32 && (GameState != Game_STATE_GAME)){
+    	onGameStart();
     }
 }
 
