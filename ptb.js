@@ -43,7 +43,7 @@ window.onkeydown = function (e) {
 }
 
 window.onkeyup = function (e) { // 키보드 스페이스바를 누르고 땟을 때
-	if (e.keyCode == 32) {
+	if (e.keyCode == 32 && GameState==Game_STATE_GAME) {
 		presscount++ // 하나 중가
 	}
 } 
